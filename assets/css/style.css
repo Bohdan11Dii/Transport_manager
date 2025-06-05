@@ -1,9 +1,13 @@
-html, body {
+/* html, body {
     height: 100%;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-  }
-
+    background: url('../img/body_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
 
 body {
     min-height: 100vh;
@@ -22,9 +26,13 @@ body {
     content: "";
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background: url('../img/body_background.png');
+    background-size: cover;
+    background-position: center;
     z-index: -1;
+    will-change: transform;
   }
+  
   .hero-section {
     min-height: 100vh;
     display: flex;
